@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Employeelogin">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/gardlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toStartOf="@id/guideline_left"
+            tools:ignore="MissingConstraints"
+            android:paddingBottom="100dp"/>
+
+         <TextView
+             android:id="@+id/empllogin"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Employee Login"
+             android:textSize="30sp"
+             app:layout_constraintEnd_toStartOf="@id/guideline_right"
+             app:layout_constraintStart_toStartOf="@id/guideline_left"
+             app:layout_constraintTop_toBottomOf="@id/gardlogo"/>
+
+
+
+    <EditText
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ep_bg"
+            android:inputType="textEmailAddress"
+            android:hint="Email address"
+            android:textColor="#FF0000"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toStartOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/empllogin"/>
+
+        <EditText
+            android:id="@+id/userpassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ep_bg"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:padding="16dp"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toStartOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/username"/>
+
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/lightgreen"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toStartOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/userpassword"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:background="@drawable/lbtn_bg"/>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:padding="5dp"
+            android:text="forgot password"
+            android:textColor="@color/lightgreen"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="@id/guideline_left"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintTop_toBottomOf="@id/loginbutton"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="25dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="26dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinetop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="25dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinebtm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="25dp" />
+
+
+
+        <View
+            android:id="@+id/footer_line"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="50dp"
+            android:background="#fff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account ?"
+            app:layout_constraintTop_toBottomOf="@id/footer_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/darkgreen" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

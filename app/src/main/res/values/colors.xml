@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="darkgreen">#013220</color>
+    <color name="lightgreen">#90EE90</color>
+
+    <color name="login_form">#ccffffff</color>
+    <color name="darkblack">#333333</color>
+    <color name="lightgrey">#999999</color>
+    <color name="textcolor">#dcedf8</color>
+    <color name="green">#6ecc4d</color>
+    <color name="green1">#adcc4d</color>
+
+    
+
+    <color name="login_form_medium">#66ffffff</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/banner_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/disaster1"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        app:layout_constraintBottom_toTopOf="@id/textView_2"
+        app:layout_constraintTop_toBottomOf="@+id/banner_image">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/disaster_mgmt"
+            android:textColor="@color/darkblack"
+            android:textSize="20sp" />
+
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To view our work click here"
+        android:textColor="#0000EE"
+        android:textSize="23sp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="@id/scroll1"
+        app:layout_constraintBottom_toBottomOf="parent"   />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

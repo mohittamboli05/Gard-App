@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donation"
+    android:background="@drawable/finalbg"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/donatenow1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/donate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text=" Donate us:- \n Bank name : Trustees Bank \n Bank Account : GARD Trust \n A/c type : Saving  \n A/c No. : 12345"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="250dp"
+        android:scrollbars="vertical"
+        android:textSize="28sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="0dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

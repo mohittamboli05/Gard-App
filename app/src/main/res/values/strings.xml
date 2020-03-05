@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GARD</string>
+    <string name="title_activity_gard_navbar">Gard_navbar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="disaster_mgmt">Being a disaster-prone country, India is highly vulnerable to various types of natural calamities due to its geographical positioning. According to the National Disaster Management Authority, Govt. of India, more than 58.6% of the country landmass is prone to earthquakes and over 12% is prone to floods; close to 5,700kms out of the 7,516kms long coastline is prone to cyclones and tsunamis; while 68% of its cultivable area is prone to droughts.
+
+    Disaster risks in India are further compounded by increasing vulnerabilities related to changing demographics, socio-economic conditions- unplanned urbanization, development within high-risk zones, environmental degradation, climate change, and epidemics and pandemics. All these factors have created a situation where disasters seriously threaten the sustainable development of the country, besides innumerable lives and livelihoods.
+
+    Smile Foundation, with its welfare interventions focused on children and their families, responds to the call of humanity in times of such calamities under its Disaster Response programme. From the Kashmir earthquake in 2005 to the Uttarakhand floods in 2013, Smile Foundation has acted promptly to reach out and respond to the immediate needs of the disaster affected people, while also maintaining a sustainable approach to help them rebuild their lives by facilitating their education, healthcare and livelihood.</string>
+
+
+    <string name="women_empo">Delivering multiple roles effortlessly every single day, women are undoubtedly the backbone of any society. Doting daughters, caring mothers, competent colleagues and a wide range of many other roles are played by women around us flawlessly and with grace.
+
+    However, they’ve also been an ignored fraction of the society in many parts of the world. This, in turn, has caused women at large to bear the brunt of inequality, oppression, financial dependability and other social evils. For centuries now, women have been living under bondage that restricts them from achieving professional as well as personal heights.</string>
+
+
+    <string name="youth_dev">Youth development is a process that prepares a young person to meet the challenges of adolescence and adulthood and achieve his or her full potential. Youth development is promoted through activities and experiences that help youth develop social, ethical, emotional, physical, and cognitive competencies. Youth leadership is part of the youth development process and supports the young person in developing: (a) the ability to analyze his or her own strengths and weaknesses, set personal and vocational goals, and have the self-esteem, confidence, motivation, and abilities to carry them out (including the ability to establish support networks in order to fully participate in community life and effect positive social change); and (b) the ability to guide or direct others on a course of action, influence the opinions and behaviors of others, and serve as a role model (Wehmeyer, Agran, Hughes, 1998).
+
+Conditions that promote healthy youth development are supported through programs and activities in schools and communities. Youth development researchers and practitioners emphasize that effective programs and interventions recognize youths’ strengths and seek to promote positive development rather than addressing risks in isolation. Youth who are constructively involved in learning and doing and who are connected to positive adults and peers are less likely to engage in risky or self-defeating behaviors.</string>
+
+    <string name="about">Green Association Rural Develoment is a Social,Educational, relief and rural/urban community development organisation work as a charitable trust. We are committed to the Millennium development goals. Our vision is for a just and compassionate Indian society in which all people will have the opportunity to achieve their optimum potential. Its priorities and objectives are to carry out charitable, holistic and sustainable development work among the poor, marginalized, downtrodden, illiterate, vulnerable and the exploited ones, irrespective of their caste, creed, colour, sex or religion. In achieving the same we work in partnership with other national and international NGOs. </string>
+
+</resources>

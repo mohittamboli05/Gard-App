@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gardxml">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gard_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".volunteerlogin"></activity>
+        <activity android:name=".Employeelogin" />
+        <activity android:name=".Feedbackform" />
+        <activity android:name=".youth_page" />
+        <activity android:name=".Women_page" />
+        <activity android:name=".Disaster_Page" />
+        <activity
+            android:name=".Gard_navbar"
+            android:label="@string/title_activity_gard_navbar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Contact_us" />
+        <activity android:name=".Join_us" />
+        <activity android:name=".Events" />
+        <activity android:name=".Programmes" />
+        <activity android:name=".Donation" />
+        <activity android:name=".homescreen" />
+        <activity android:name=".splash_gard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
